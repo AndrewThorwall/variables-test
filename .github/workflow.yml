@@ -1,0 +1,10 @@
+name: "Workflow"
+on:
+  workflow_dispatch:
+jobs:
+  test:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Step
+        continue-on-error: true
+        run: echo $TEST_VARIABLE

@@ -1,4 +1,6 @@
 name: "Workflow"
+env:
+  TEST_VARIABLE: 1
 on:
   workflow_dispatch:
 jobs:
